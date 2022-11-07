@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link>
+  <title>高雄旅遊網</title>
+  <!-- material icon cdn -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="all.css">
+</head>
+<body>
+  <div class="header">
+    <h1>高雄旅遊資訊</h1>
+  </div>
+  
+  <div class="select-district">
+    <select class="select">
+      <option value="" disabled selected>- -請選擇行政區 - -</option>
+      <option value="楠梓區">楠梓區</option>
+      <option value="左營區">左營區</option>
+      <option value="鼓山區">鼓山區</option>
+      <option value="三民區">三民區</option>
+      <option value="苓雅區">苓雅區</option>
+      <option value="新興區">新興區</option>
+      <option value="前金區">前金區</option>
+      <option value="鹽埕區">鹽埕區</option>
+      <option value="前鎮區">前鎮區</option>
+      <option value="旗津區">旗津區</option>
+      <option value="小港區">小港區</option>
+      <option value="鳳山區">鳳山區</option>
+      <option value="鳥松區">鳥松區</option>
+      <option value="大樹區">大樹區</option>
+      <option value="大寮區">大寮區</option>
+      <option value="林園區">林園區</option>
+      <option value="美濃區">美濃區</option>
+      <option value="旗山區">旗山區</option>
+      <option value="田寮區">田寮區</option>
+      <option value="岡山區">岡山區</option>
+      <option value="橋頭區">橋頭區</option>
+      <option value="茄萣區">茄萣區</option>
+      <option value="路竹區">路竹區</option>
+      <option value="永安區">永安區</option>
+      <option value="彌陀區">彌陀區</option>
+      <option value="那瑪夏區">那瑪夏區</option>
+      <option value="桃園區">桃園區</option>
+      <option value="茂林區">茂林區</option>
+      <option value="甲仙區">甲仙區</option>
+      <option value="六龜區">六龜區</option>
+      <option value="杉林區">杉林區</option>
+      <option value="內門區">內門區</option>
+      <option value="梓官區">梓官區</option>
+      <option value="阿蓮區">阿蓮區</option>
+      <option value="湖內區">湖內區</option>
+      <option value="燕巢區">燕巢區</option>
+      <option value="大社區">大社區</option>
+    </select>
+  </div>
+
+  <div class="popular">
+    <h2>熱門行政區</h2>
+    <ul class="popular-list">
+    </ul>
+  </div>
+
+  <div class="main container">
+    <div class="collapse">
+      <span class="material-symbols-rounded">
+        expand_circle_down
+      </span>
+    </div>
+    <h3 class="district"></h3>
+    <p class="message loader">載入資料中，請稍候 :)</p>
+    <p class="message error">目前沒有資料</p>
+    <ul class="list">
+    </ul>
+    <div class="page">
+    </div>
+  </div>
+
+  <div class="footer bg-blue">
+    <p>高雄旅遊網</p>
+    <p>資料來源：<a href="#">高雄市政府</a></p>
+  </div>
+  <script src="all.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.page {
+    min-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    .page-item {
+        background-color: $color-white;
+        border:none;
+        font-size: 14px;
+        color: #4A4A4A;
+        margin-left: 4px;
+        margin-right: 4px;
+        &:hover{
+            color: $color-primary;
+        }
+    }
+    .active{
+        font-weight: bold;
+    }
+}

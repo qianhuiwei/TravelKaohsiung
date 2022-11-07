@@ -1,0 +1,22 @@
+.select-district {
+    position: absolute;
+    top: 225px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    .select {
+        width: 452px;
+        height: 48px;
+        padding-left: 8px;
+        font-size: 18px;
+        line-height: 21px;
+        background: rgba(255,255,255,0.70);
+        border: 3px solid $color-white;
+        border-radius: 3px;
+        appearance: none;
+        background-image: url(https://hexschool.github.io/JavaScript_HomeWork/assets/icons_down.png);
+        background-repeat: no-repeat;
+        background-position-x: 96%;
+        background-position-y: 50%;
+    }
+}

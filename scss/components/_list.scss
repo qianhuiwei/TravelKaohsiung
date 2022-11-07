@@ -1,0 +1,57 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 24px;
+    .list-item {
+        width: 464px;
+        min-height: 273px;
+        margin-bottom: 30px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+        &:hover {
+            box-shadow: 0 3px 5px 0 $color-primary;
+        }
+        .img {
+            height: 155px;
+            color: $color-white;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            h3 {
+                position: absolute;
+                bottom: 14px;
+                padding-left: 22px;
+                margin-bottom: 8px;
+                font-size: 24px;
+            }
+            p{
+                position: absolute;
+                bottom: 11px;
+                right: 24px;
+            }
+        }
+        .info {
+            margin: 16px 20px;
+            img {
+                width: 18px;
+                height: 20px;
+                object-fit: contain;
+                margin-right: 8px;
+            }
+            p {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                margin-bottom: 16px;
+                position: relative;
+            }
+            .ticket {
+                width: 88px;
+                position: absolute;
+                bottom: 0;
+                right: 4px;
+            }
+        }
+    }
+}

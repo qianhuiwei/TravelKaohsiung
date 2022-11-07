@@ -1,0 +1,58 @@
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.header {
+    height: 380px;
+    text-align: center;
+    background-image: url(https://hexschool.github.io/JavaScript_HomeWork/assets/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        padding-top: 89px;
+        font-size: 40px;
+        color: $color-white;
+        letter-spacing: 3.89px;
+    }
+}
+
+.main {
+    border-top: 2px dashed $color-primary;
+    padding-left: 40px;
+    padding-right: 40px;
+    .collapse {
+        text-align: center;
+        span {
+            background-color: $color-white;
+            color: $color-primary;
+            margin-top: -12px;
+        }
+    }
+    .district {
+        width: 108px;
+        margin: 0 auto;
+        margin-top: 76px;
+        font-size: 36px;
+        color: #8A82CC;
+    }
+}
+
+.footer {
+    height: 90px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: $color-white;
+    p {
+        margin-bottom: 16px;
+        text-decoration: none;
+    }
+    a {
+        color: $color-secondary;
+        &:hover{
+            color: $color-white;   
+        }
+    }
+}

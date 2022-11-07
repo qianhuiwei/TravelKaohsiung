@@ -1,0 +1,298 @@
+/* 
+====================================
+        Reset CSS
+====================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after { /* apply border-box model to all elements */
+  box-sizing: border-box;
+}
+
+img { /* make all images responsive */
+  max-width: 100%; /* will adjust sizes with its container */
+  height: auto;
+}
+
+/* global configuration */
+body {
+  font-family: sans-serif;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.header {
+  height: 380px;
+  text-align: center;
+  background-image: url(https://hexschool.github.io/JavaScript_HomeWork/assets/Hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header h1 {
+  padding-top: 89px;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 3.89px;
+}
+
+.main {
+  border-top: 2px dashed #559AC8;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.main .collapse {
+  text-align: center;
+}
+.main .collapse span {
+  background-color: #FFFFFF;
+  color: #559AC8;
+  margin-top: -12px;
+}
+.main .district {
+  width: 108px;
+  margin: 0 auto;
+  margin-top: 76px;
+  font-size: 36px;
+  color: #8A82CC;
+}
+
+.footer {
+  height: 90px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.footer p {
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+.footer a {
+  color: #F5D005;
+}
+.footer a:hover {
+  color: #FFFFFF;
+}
+
+.select-district {
+  position: absolute;
+  top: 225px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.select-district .select {
+  width: 452px;
+  height: 48px;
+  padding-left: 8px;
+  font-size: 18px;
+  line-height: 21px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url(https://hexschool.github.io/JavaScript_HomeWork/assets/icons_down.png);
+  background-repeat: no-repeat;
+  background-position-x: 96%;
+  background-position-y: 50%;
+}
+
+.popular {
+  margin: 0 auto;
+  width: 800px;
+  height: 112px;
+  padding: 18px;
+  margin-top: -28px;
+  margin-bottom: 48px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.popular h2 {
+  margin-bottom: 14px;
+  margin-left: 24px;
+  font-size: 18px;
+}
+.popular .popular-list {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.popular .popular-list input {
+  width: 130px;
+  height: 42px;
+  margin-right: 24px;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+.popular .popular-list input:hover {
+  opacity: 0.9;
+}
+
+.message {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 28px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.list .list-item {
+  width: 464px;
+  min-height: 273px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.list .list-item:hover {
+  box-shadow: 0 3px 5px 0 #559AC8;
+}
+.list .list-item .img {
+  height: 155px;
+  color: #FFFFFF;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.list .list-item .img h3 {
+  position: absolute;
+  bottom: 14px;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+.list .list-item .img p {
+  position: absolute;
+  bottom: 11px;
+  right: 24px;
+}
+.list .list-item .info {
+  margin: 16px 20px;
+}
+.list .list-item .info img {
+  width: 18px;
+  height: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 8px;
+}
+.list .list-item .info p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 16px;
+  position: relative;
+}
+.list .list-item .info .ticket {
+  width: 88px;
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+}
+
+.page {
+  min-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+.page .page-item {
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  color: #4A4A4A;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.page .page-item:hover {
+  color: #559AC8;
+}
+.page .active {
+  font-weight: bold;
+}
+
+.bg-purple {
+  background: #8A82CC;
+}
+
+.bg-orange {
+  background: #FFA782;
+}
+
+.bg-yellow {
+  background: #F5D005;
+}
+
+.bg-blue {
+  background: #559AC8;
+}
