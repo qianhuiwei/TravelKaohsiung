@@ -1,4 +1,4 @@
-# KaohsiungTravel
+# TravelKaohsiung
 
 This is a Kaohsiung tourist attraction website that shows attractions for selected district. 
 \
