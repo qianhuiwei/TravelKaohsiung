@@ -1,6 +1,9 @@
 # KaohsiungTravel
 
 This is a Kaohsiung tourist attraction website that shows attractions for selected district. 
+\
+&nbsp;
+\
 &nbsp;
 <img src="https://github.com/qianhuiwei/KaohsiungTravel/blob/main/pageDemo.png" width="600"/>
 
