@@ -106,7 +106,7 @@ a {
   margin-top: -12px;
 }
 .main .district {
-  min-width: 108px;
+  width: 108px;
   margin: 0 auto;
   margin-top: 76px;
   font-size: 36px;

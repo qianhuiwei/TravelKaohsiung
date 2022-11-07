@@ -27,9 +27,9 @@ function getListData() {
 // function that filters attraction based on input district
 function filterDistrict(district) {
     let result = [];
-    for (let i = 0; i < data.length; i++) {
-        if (data[i].Add.includes(district)) {
-            result.push(data[i]);
+    for (let dataItem of data) {
+        if (dataItem.Add.includes(district)) {
+            result.push(dataItem);
         }
     }
     return result;
