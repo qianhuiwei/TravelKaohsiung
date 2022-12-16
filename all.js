@@ -120,7 +120,7 @@ function showErrorMessage() {
 // function that adds event listeners to elements
 function addEventListeners() {
     // for district select options
-    document.querySelector(".select").addEventListener("change",showDistrict);
+    document.querySelector(".select").addEventListener("change", showDistrict);
     // for popular districts buttons
     document.querySelector(".popular-list").addEventListener("click", showDistrict);
     // for page buttons
@@ -129,9 +129,9 @@ function addEventListeners() {
 
 /* helper functions that handle user events */
 function showDistrict(e) {
-    console.log(e.target.nodeName);
     if (e.target.nodeName === "INPUT" || e.target.nodeName === "SELECT") {
         selectDistrict = e.target.value;
+        document.querySelector(".select").value = selectDistrict;
         districtData = filterDistrict(selectDistrict);
         pageNum = 1;
         updateList();
